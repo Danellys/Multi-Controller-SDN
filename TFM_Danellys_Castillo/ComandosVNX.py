@@ -34,12 +34,12 @@ def lanzar(ControllerType, QuantityCtrl, ip_address):
             with open("scriptONOS" + str(i4) + ".sh", "w") as f2:
                 f2.write("#!/bin/bash")
                 f2.write("\n")
-                f2.write('sudo lxc-attach -n ONOS' + str(i4) + ' -e sudo ./opt/onos1/apache-karaf-3.0.8/bin/karaf clean')
+                f2.write('sudo lxc-attach -n ONOS' + str(i4) + ' -e sudo ./opt/onos/apache-karaf-3.0.8/bin/karaf clean')
             os.system("gnome-terminal working-directory="+ path + " -- bash ./scriptONOS" + str(i4) + ".sh")
             if x != 1:
                 if i4 == x:
                     time.sleep(60)
-                    os.system("sudo lxc-attach -n ONOS1 -e sudo /opt/onos1/bin/onos-form-cluster " + str(cluster))
+                    os.system("sudo lxc-attach -n ONOS1 -e sudo /opt/onos/bin/onos-form-cluster " + str(cluster))
             i4 += 1
 
 def detener():
