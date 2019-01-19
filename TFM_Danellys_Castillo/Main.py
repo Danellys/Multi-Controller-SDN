@@ -1,3 +1,2 @@
-from GUI import GUI
-from VNX import *
-GUI()
+import GUI
+GUI.GUI()

@@ -1,4 +1,7 @@
+#Pruebas de Agregar y eliminar conmutadores
 import os
+
+#Funcion para eliminar conmutadores
 def Eliminar(QSwitch, TopologyType):
     for bridge in range(1,QSwitch+1):
         os.system("sudo ovs-vsctl del-br Net" + str(bridge))
@@ -14,6 +17,7 @@ def Eliminar(QSwitch, TopologyType):
                 for peer in range(bridge+1,QSwitch+1,1):
                     os.system("ip link delete dev Link" + str(bridge) + "-" + str(peer) + "-1")
 
+#Función para  agregar conmutadores
 def Agregar(QSwitch, controllers, TopologyType):
     #Creando los conmutadores e indicando que utilizan OpenFlow1.3
     if (TopologyType.get()=="Anillo"):

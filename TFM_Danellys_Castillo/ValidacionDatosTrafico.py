@@ -1,4 +1,4 @@
-
+#Validación de los datos usados lpara las pruebas
 from tkinter import messagebox
 import ipaddress
 

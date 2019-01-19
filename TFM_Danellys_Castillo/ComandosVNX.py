@@ -5,14 +5,14 @@ import inspect
 filename = inspect.getframeinfo(inspect.currentframe()).filename
 path = os.path.dirname(os.path.abspath(filename))
 
-#Función para detener el escenario, eliminar el archivo escenario.xml y los script creados
 
+#Función para lanzar el escenario VNX  h abriendo las consolas de los controladores
 def lanzar(ControllerType, QuantityCtrl, ip_address):
     print (path)
     x = int(QuantityCtrl.get())
     os.system("sudo vnx -f escenario.xml -v --create")
     i4 = 1
-    # Se crean unos archivos bash que permiten dejar en ejecución Opendaylight
+    # Se crean unos archivos bash que permiten dejar en ejecución los controladores
     while i4 <= x:
         if ControllerType.get() == "ODL":
             with open("scriptODL" + str(i4) + ".sh", "w") as f2:
@@ -41,7 +41,7 @@ def lanzar(ControllerType, QuantityCtrl, ip_address):
                     time.sleep(60)
                     os.system("sudo lxc-attach -n ONOS1 -e sudo /opt/onos/bin/onos-form-cluster " + str(cluster))
             i4 += 1
-
+#Función para detener el escenario, eliminar el archivo escenario.xml y los script creados
 def detener():
     os.system("sudo vnx -f escenario.xml -v --P")
     os.remove("escenario.xml")

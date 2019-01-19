@@ -1,4 +1,4 @@
-#Función para  ejecutar pruebas de prestaciones
+#Función para  ejecutar pruebas de flujos
 import inspect
 import os
 def prueba(flows,fpr, IP_test, ControllerType):

@@ -1,3 +1,4 @@
+#Verificación de Datos de Entrada
 from tkinter import messagebox
 import ipaddress
 def switcherror(QSwitch):

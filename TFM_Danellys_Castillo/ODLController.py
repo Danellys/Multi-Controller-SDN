@@ -1,3 +1,4 @@
+#Creación de XML correspondiente al controlador ODL
 import ipaddress
 def ODL_cluster(ip_address, x):
     i = 1 #Pertmite crear varias interaciones para crear varios controladores ODL

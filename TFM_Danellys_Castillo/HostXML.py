@@ -1,3 +1,4 @@
+#Crreación de la parte del XML correspondiente a los hosts
 def create_host(switch, host):
     iswitch = 1
     ihost = 1

@@ -1,7 +1,7 @@
 #Importando paquetes necesarios
 from tkinter import *
 from tkinter import font
-import VNX
+import CreacionXML
 import ComandosVNX
 import ManejoEscenario
 import Pruebas
@@ -9,15 +9,9 @@ from tkinter import messagebox
 import ipaddress
 import time
 import os
-def init():
-    global latencia
-    latencia=''
 
 def GUI():
-    init()
-    print(latencia)
-    # Creando ventana para interfaz gráfica
-    root = Tk()
+    root = Tk() #Creando ventana para interfaz gráfica
     root.title("Escenarios SDN de Múltiples Controladores")
     root.geometry("960x930")
     root.resizable(width=False, height=False)
@@ -46,7 +40,7 @@ def GUI():
     w1 = OptionMenu(root, QuantityCtrl, "1", "3", "4", "5", "6", "7", "8", "9", "10")
     w1.grid(row=2, column=1, pady=(20,10), sticky=W)
 
-    #Creando una eqtiqueta y un cuadro texto para ingresar la cantidad de conmutadores en la topología
+    #Creando una eqtiqueta y un cuadro texto para ingresar la cantidad d switches en la topología
     Label4 = Label(root, text="Conmutadores:", font=Fuente)
     Label4.grid(row=3, column=0, pady=(10,30), sticky=E)
     QSwitch = Entry(root, font=Fuente, width=5)
@@ -57,8 +51,6 @@ def GUI():
     Label5.grid(row=3, column=2, pady=(10,30), sticky=E)
     QHost = Entry(root, font=Fuente, width=5)
     QHost.grid(row=3, column=3, pady=(10,30), padx=(1,1),sticky=W)
-
-    #Creando etiquetas y menú desplegable para seleccionar tipo de topología
     Label5 = Label(root, text="Topología", font=Fuente)
     Label5.grid(row=3, column=4, pady=(10, 30),padx=(5,5),sticky=E)
     TopologyType = StringVar(root)
@@ -67,9 +59,9 @@ def GUI():
     w2.grid(row=3, column=5, pady=(10,30), sticky=W)
 
     #Creando Boton para crear/eliminar switches
-    button1 = Button(root, text="Agregar Conmutadores OVS", font=Fuente, command=lambda: ManejoEscenario.AgregarConmutador(QSwitch,IP_Address,QuantityCtrl, TopologyType))
+    button1 = Button(root, text="Agregar Conmutadores OVS", font=Fuente, command=lambda: ManejoEscenario.addswitch(QSwitch,IP_Address,QuantityCtrl, TopologyType))
     button1.grid(row=6, column=1, pady=(10, 30), padx=(5, 5), sticky=W + E)
-    button1 = Button(root, text="Eliminar Conmutadores OVS", font=Fuente,command=lambda: ManejoEscenario.EliminarConmutador(QSwitch, TopologyType))
+    button1 = Button(root, text="Eliminar Conmutadores OVS", font=Fuente,command=lambda: ManejoEscenario.deleteswitch(QSwitch, TopologyType))
     button1.grid(row=6, column=2, pady=(10, 30), padx=(5, 5), sticky=W + E)
 
     # Creando etiqueta y cuadro de texto para indicar la direccion IP inicial
@@ -101,7 +93,6 @@ def GUI():
     Label13.grid(row=12, columnspan=2, pady=(10, 10), padx=(5, 5), sticky=W+E)
     Label14 = Label(root, text="Latencia al Agregar y Eliminar un Conmutador", font=Fuente)
     Label14.grid(row=14, columnspan=2, pady=(15, 10), padx=(5, 5), sticky=W + E)
-
     #Creando un menú desplegable para seleccionar el tipo de controlador
     Label11 = Label(root, text="Tipo de Controlador:", font=Fuente)
     Label11.grid(row=2, column=2, pady=(30,10), sticky=E)
@@ -129,5 +120,3 @@ def GUI():
     button8.grid(row=15, column=2, pady=(1, 40))
 
     root.mainloop()
-
-    return (ControllerType, QuantityCtrl, QSwitch, QHost, QFlows, QFpr)

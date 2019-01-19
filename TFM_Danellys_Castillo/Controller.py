@@ -1,3 +1,4 @@
+#Creando el clúster de controladores dependiendo del tipo seleccionado
 import ODLController
 import ONOSController
 def create_cluster(ControllerType, ip_address,x):

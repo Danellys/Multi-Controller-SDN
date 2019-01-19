@@ -1,3 +1,4 @@
+#Conexión a la Net0 para tener conexión a los controladores
 import ipaddress
 def create_subnet(ip_address):
     with open('escenario.xml', 'a') as file:

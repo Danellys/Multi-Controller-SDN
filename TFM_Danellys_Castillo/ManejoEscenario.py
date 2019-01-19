@@ -1,5 +1,5 @@
 import Errores
-import VNX
+import CreacionXML
 import ComandosVNX
 import AgregarEliminarConmutador
 import os
@@ -8,7 +8,7 @@ def create (ControllerType, QuantityCtrl,QSwitch, QHost, IP_Address, TopologyTyp
     switch = Errores.switcherror(QSwitch)
     host = Errores.hosterror(QHost)
     ip_address = Errores.check_ip(IP_Address)
-    controllers=VNX.editxml(ControllerType, QuantityCtrl, switch, host, ip_address,TopologyType)
+    controllers=CreacionXML.editxml(ControllerType, QuantityCtrl, switch, host, ip_address,TopologyType)
     ComandosVNX.lanzar(ControllerType, QuantityCtrl, ip_address)
 def AgregarConmutador(QSwitch,IP_Address,QuantityCtrl, TopologyType):
     x = int(QuantityCtrl.get())

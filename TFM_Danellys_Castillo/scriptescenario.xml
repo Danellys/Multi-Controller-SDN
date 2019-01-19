@@ -4,15 +4,7 @@
 
 ~~~~~~~~~~~~~~~~~~~~
 VNX Sample scenarios
-~~~~~~~~~~~~~~~~~~~~
-
-Name:        simple_lxc_ubuntu64
-Description: Just one Ubuntu virtual machine connected to a Network named Net0 with address 10.1.0.4. 
-             The host has an interface in Net0 with address 10.1.0.1  
-             This simple scenario is supposed to be used for testing the different 
-             types of virtual machines supported by VNX. You can start several simple_*.xml
-             scenarios and test the connectivity among virtual machines and the host, as all
-             scenarios share the same "Net0" network.  
+~~~~~~~~~~~~~~~~~~~~ 
 
 This file is part of the Virtual Networks over LinuX (VNX) Project distribution. 
 (www: http://www.dit.upm.es/vnx - e-mail: vnx@dit.upm.es) 

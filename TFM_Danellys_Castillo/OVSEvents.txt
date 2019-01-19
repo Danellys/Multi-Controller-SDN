@@ -1,0 +1,1476 @@
+record 0: "Open_vSwitch" schema, version="7.15.1", cksum="3682332033 23608"
+
+record 1: 2019-01-16 21:00:53.885 "compacting database online (1547672445.618 seconds old, 8750 transactions)"
+record 2: 2019-01-16 21:01:02.059
+record 3: 2019-01-16 21:01:32.129 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link12-0"
+record 4: 2019-01-16 21:01:39.819
+record 5: 2019-01-16 21:01:40.161 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link31-1"
+record 6: 2019-01-16 21:01:40.204
+record 7: 2019-01-16 21:01:40.555
+record 8: 2019-01-16 21:01:40.644 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link12-1"
+record 9: 2019-01-16 21:01:40.942
+record 10: 2019-01-16 21:01:41.293
+record 11: 2019-01-16 21:01:41.327 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link23-0"
+record 12: 2019-01-16 21:01:41.991
+record 13: 2019-01-16 21:01:42.352 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net3 link23-1"
+record 14: 2019-01-16 21:01:42.716
+record 15: 2019-01-16 21:01:42.756 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net3 link31-0"
+record 16: 2019-01-16 21:01:43.425
+record 17: 2019-01-16 21:02:05.554 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net1"
+record 18: 2019-01-16 21:02:05.933
+record 19: 2019-01-16 21:02:05.963 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net2"
+record 20: 2019-01-16 21:02:06.671
+record 21: 2019-01-16 21:02:06.695 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net3"
+record 22: 2019-01-16 21:02:07.381
+record 23: 2019-01-16 21:02:07.409 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net4"
+record 24: 2019-01-16 21:02:08.093
+record 25: 2019-01-16 21:02:08.119 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net5"
+record 26: 2019-01-16 21:02:08.791
+record 27: 2019-01-16 21:02:08.818 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net6"
+record 28: 2019-01-16 21:02:09.495
+record 29: 2019-01-16 21:02:09.519 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net7"
+record 30: 2019-01-16 21:02:10.178
+record 31: 2019-01-16 21:02:10.202 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net8"
+record 32: 2019-01-16 21:02:10.862
+record 33: 2019-01-16 21:02:10.887 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net9"
+record 34: 2019-01-16 21:02:11.537
+record 35: 2019-01-16 21:02:11.564 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net10"
+record 36: 2019-01-16 21:02:12.231
+record 37: 2019-01-16 21:02:12.258 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net11"
+record 38: 2019-01-16 21:02:12.929
+record 39: 2019-01-16 21:02:12.953 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net12"
+record 40: 2019-01-16 21:02:13.629
+record 41: 2019-01-16 21:02:13.655 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net13"
+record 42: 2019-01-16 21:02:14.289
+record 43: 2019-01-16 21:02:14.313 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net14"
+record 44: 2019-01-16 21:02:14.952
+record 45: 2019-01-16 21:02:14.978 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net15"
+record 46: 2019-01-16 21:02:15.619
+record 47: 2019-01-16 21:02:15.641 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net16"
+record 48: 2019-01-16 21:02:16.264
+record 49: 2019-01-16 21:02:16.289 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net17"
+record 50: 2019-01-16 21:02:16.915
+record 51: 2019-01-16 21:02:16.938 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net18"
+record 52: 2019-01-16 21:02:17.630
+record 53: 2019-01-16 21:02:17.657 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net19"
+record 54: 2019-01-16 21:02:18.292
+record 55: 2019-01-16 21:02:18.315 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net20"
+record 56: 2019-01-16 21:02:18.917
+record 57: 2019-01-16 21:02:18.941 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net21"
+record 58: 2019-01-16 21:02:19.567
+record 59: 2019-01-16 21:02:19.592 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net22"
+record 60: 2019-01-16 21:02:20.191
+record 61: 2019-01-16 21:02:20.215 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net23"
+record 62: 2019-01-16 21:02:20.823
+record 63: 2019-01-16 21:02:20.844 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net24"
+record 64: 2019-01-16 21:02:21.456
+record 65: 2019-01-16 21:02:21.482 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net25"
+record 66: 2019-01-16 21:02:22.059
+record 67: 2019-01-16 21:02:22.090 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net26"
+record 68: 2019-01-16 21:02:22.691
+record 69: 2019-01-16 21:02:22.718 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net27"
+record 70: 2019-01-16 21:02:23.312
+record 71: 2019-01-16 21:02:23.337 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net28"
+record 72: 2019-01-16 21:02:23.903
+record 73: 2019-01-16 21:02:23.925 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net29"
+record 74: 2019-01-16 21:02:24.550
+record 75: 2019-01-16 21:02:24.573 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net30"
+record 76: 2019-01-16 21:02:25.156
+record 77: 2019-01-16 21:02:25.178 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net31"
+record 78: 2019-01-16 21:02:25.757
+record 79: 2019-01-16 21:02:25.778 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net32"
+record 80: 2019-01-16 21:02:26.351
+record 81: 2019-01-16 21:02:26.376 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net33"
+record 82: 2019-01-16 21:02:26.960
+record 83: 2019-01-16 21:02:26.983 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net34"
+record 84: 2019-01-16 21:02:27.523
+record 85: 2019-01-16 21:02:27.548 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net35"
+record 86: 2019-01-16 21:02:28.104
+record 87: 2019-01-16 21:02:28.130 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net36"
+record 88: 2019-01-16 21:02:28.668
+record 89: 2019-01-16 21:02:28.691 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net37"
+record 90: 2019-01-16 21:02:29.223
+record 91: 2019-01-16 21:02:29.246 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net38"
+record 92: 2019-01-16 21:02:29.775
+record 93: 2019-01-16 21:02:29.796 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net39"
+record 94: 2019-01-16 21:02:30.334
+record 95: 2019-01-16 21:02:30.360 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net40"
+record 96: 2019-01-16 21:02:30.877
+record 97: 2019-01-16 21:02:30.900 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net41"
+record 98: 2019-01-16 21:02:31.412
+record 99: 2019-01-16 21:02:31.435 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net42"
+record 100: 2019-01-16 21:02:31.937
+record 101: 2019-01-16 21:02:31.959 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net43"
+record 102: 2019-01-16 21:02:32.459
+record 103: 2019-01-16 21:02:32.481 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net44"
+record 104: 2019-01-16 21:02:32.971
+record 105: 2019-01-16 21:02:32.993 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net45"
+record 106: 2019-01-16 21:02:33.493
+record 107: 2019-01-16 21:02:33.515 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net46"
+record 108: 2019-01-16 21:02:33.997
+record 109: 2019-01-16 21:02:34.019 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net47"
+record 110: 2019-01-16 21:02:34.504
+record 111: 2019-01-16 21:02:34.523 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net48"
+record 112: 2019-01-16 21:02:35.011
+record 113: 2019-01-16 21:02:35.039 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net49"
+record 114: 2019-01-16 21:02:35.521
+record 115: 2019-01-16 21:02:35.542 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net50"
+record 116: 2019-01-16 21:02:36.012
+record 117: 2019-01-16 21:02:36.038 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net51"
+record 118: 2019-01-16 21:02:36.507
+record 119: 2019-01-16 21:02:36.528 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net52"
+record 120: 2019-01-16 21:02:36.991
+record 121: 2019-01-16 21:02:37.011 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net53"
+record 122: 2019-01-16 21:02:37.475
+record 123: 2019-01-16 21:02:37.496 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net54"
+record 124: 2019-01-16 21:02:37.944
+record 125: 2019-01-16 21:02:37.968 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net55"
+record 126: 2019-01-16 21:02:38.423
+record 127: 2019-01-16 21:02:38.442 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net56"
+record 128: 2019-01-16 21:02:38.899
+record 129: 2019-01-16 21:02:38.920 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net57"
+record 130: 2019-01-16 21:02:39.369
+record 131: 2019-01-16 21:02:39.390 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net58"
+record 132: 2019-01-16 21:02:39.836
+record 133: 2019-01-16 21:02:39.856 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net59"
+record 134: 2019-01-16 21:02:40.306
+record 135: 2019-01-16 21:02:40.323 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net60"
+record 136: 2019-01-16 21:02:40.762
+record 137: 2019-01-16 21:02:40.781 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net61"
+record 138: 2019-01-16 21:02:41.224
+record 139: 2019-01-16 21:02:41.243 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net62"
+record 140: 2019-01-16 21:02:41.669
+record 141: 2019-01-16 21:02:41.691 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net63"
+record 142: 2019-01-16 21:02:42.104
+record 143: 2019-01-16 21:02:42.124 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net64"
+record 144: 2019-01-16 21:02:42.529
+record 145: 2019-01-16 21:02:42.545 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net65"
+record 146: 2019-01-16 21:02:42.950
+record 147: 2019-01-16 21:02:42.968 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net66"
+record 148: 2019-01-16 21:02:43.368
+record 149: 2019-01-16 21:02:43.385 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net67"
+record 150: 2019-01-16 21:02:43.780
+record 151: 2019-01-16 21:02:43.797 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net68"
+record 152: 2019-01-16 21:02:44.192
+record 153: 2019-01-16 21:02:44.208 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net69"
+record 154: 2019-01-16 21:02:44.597
+record 155: 2019-01-16 21:02:44.613 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net70"
+record 156: 2019-01-16 21:02:44.990
+record 157: 2019-01-16 21:02:45.008 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net71"
+record 158: 2019-01-16 21:02:45.383
+record 159: 2019-01-16 21:02:45.399 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net72"
+record 160: 2019-01-16 21:02:45.771
+record 161: 2019-01-16 21:02:45.787 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net73"
+record 162: 2019-01-16 21:02:46.148
+record 163: 2019-01-16 21:02:46.166 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net74"
+record 164: 2019-01-16 21:02:46.535
+record 165: 2019-01-16 21:02:46.550 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net75"
+record 166: 2019-01-16 21:02:46.918
+record 167: 2019-01-16 21:02:46.933 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net76"
+record 168: 2019-01-16 21:02:47.290
+record 169: 2019-01-16 21:02:47.308 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net77"
+record 170: 2019-01-16 21:02:47.679
+record 171: 2019-01-16 21:02:47.694 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net78"
+record 172: 2019-01-16 21:02:48.040
+record 173: 2019-01-16 21:02:48.055 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net79"
+record 174: 2019-01-16 21:02:48.387
+record 175: 2019-01-16 21:02:48.402 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net80"
+record 176: 2019-01-16 21:02:48.739
+record 177: 2019-01-16 21:02:48.754 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net81"
+record 178: 2019-01-16 21:02:49.090
+record 179: 2019-01-16 21:02:49.107 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net82"
+record 180: 2019-01-16 21:02:49.441
+record 181: 2019-01-16 21:02:49.456 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net83"
+record 182: 2019-01-16 21:02:49.788
+record 183: 2019-01-16 21:02:49.805 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net84"
+record 184: 2019-01-16 21:02:50.123
+record 185: 2019-01-16 21:02:50.137 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net85"
+record 186: 2019-01-16 21:02:50.457
+record 187: 2019-01-16 21:02:50.473 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net86"
+record 188: 2019-01-16 21:02:50.784
+record 189: 2019-01-16 21:02:50.798 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net87"
+record 190: 2019-01-16 21:02:51.104
+record 191: 2019-01-16 21:02:51.118 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net88"
+record 192: 2019-01-16 21:02:51.436
+record 193: 2019-01-16 21:02:51.451 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net89"
+record 194: 2019-01-16 21:02:51.739
+record 195: 2019-01-16 21:02:51.755 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net90"
+record 196: 2019-01-16 21:02:52.046
+record 197: 2019-01-16 21:02:52.059 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net91"
+record 198: 2019-01-16 21:02:52.357
+record 199: 2019-01-16 21:02:52.371 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net92"
+record 200: 2019-01-16 21:02:52.638
+record 201: 2019-01-16 21:02:52.652 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net93"
+record 202: 2019-01-16 21:02:52.953
+record 203: 2019-01-16 21:02:52.971 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net94"
+record 204: 2019-01-16 21:02:53.239
+record 205: 2019-01-16 21:02:53.252 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net95"
+record 206: 2019-01-16 21:02:53.553
+record 207: 2019-01-16 21:02:53.567 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net96"
+record 208: 2019-01-16 21:02:53.827
+record 209: 2019-01-16 21:02:53.842 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net97"
+record 210: 2019-01-16 21:02:54.115
+record 211: 2019-01-16 21:02:54.129 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net98"
+record 212: 2019-01-16 21:02:54.391
+record 213: 2019-01-16 21:02:54.406 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net99"
+record 214: 2019-01-16 21:02:54.662
+record 215: 2019-01-16 21:02:54.676 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net100"
+record 216: 2019-01-16 21:02:54.919
+record 217: 2019-01-16 21:02:54.933 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net101"
+record 218: 2019-01-16 21:02:55.177
+record 219: 2019-01-16 21:02:55.191 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net102"
+record 220: 2019-01-16 21:02:55.423
+record 221: 2019-01-16 21:02:55.437 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net103"
+record 222: 2019-01-16 21:02:55.667
+record 223: 2019-01-16 21:02:55.681 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net104"
+record 224: 2019-01-16 21:02:55.908
+record 225: 2019-01-16 21:02:55.922 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net105"
+record 226: 2019-01-16 21:02:56.143
+record 227: 2019-01-16 21:02:56.156 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net106"
+record 228: 2019-01-16 21:02:56.375
+record 229: 2019-01-16 21:02:56.388 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net107"
+record 230: 2019-01-16 21:02:56.609
+record 231: 2019-01-16 21:02:56.622 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net108"
+record 232: 2019-01-16 21:02:56.844
+record 233: 2019-01-16 21:02:56.856 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net109"
+record 234: 2019-01-16 21:02:57.067
+record 235: 2019-01-16 21:02:57.080 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net110"
+record 236: 2019-01-16 21:02:57.304
+record 237: 2019-01-16 21:02:57.317 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net111"
+record 238: 2019-01-16 21:02:57.515
+record 239: 2019-01-16 21:02:57.528 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net112"
+record 240: 2019-01-16 21:02:57.729
+record 241: 2019-01-16 21:02:57.742 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net113"
+record 242: 2019-01-16 21:02:57.934
+record 243: 2019-01-16 21:02:57.946 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net114"
+record 244: 2019-01-16 21:02:58.123
+record 245: 2019-01-16 21:02:58.136 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net115"
+record 246: 2019-01-16 21:02:58.318
+record 247: 2019-01-16 21:02:58.329 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net116"
+record 248: 2019-01-16 21:02:58.519
+record 249: 2019-01-16 21:02:58.531 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net117"
+record 250: 2019-01-16 21:02:58.704
+record 251: 2019-01-16 21:02:58.715 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net118"
+record 252: 2019-01-16 21:02:58.871
+record 253: 2019-01-16 21:02:58.881 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net119"
+record 254: 2019-01-16 21:02:59.037
+record 255: 2019-01-16 21:02:59.049 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net120"
+record 256: 2019-01-16 21:02:59.235
+record 257: 2019-01-16 21:02:59.247 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net121"
+record 258: 2019-01-16 21:02:59.413
+record 259: 2019-01-16 21:02:59.425 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net122"
+record 260: 2019-01-16 21:02:59.589
+record 261: 2019-01-16 21:02:59.600 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net123"
+record 262: 2019-01-16 21:02:59.753
+record 263: 2019-01-16 21:02:59.764 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net124"
+record 264: 2019-01-16 21:02:59.895
+record 265: 2019-01-16 21:02:59.906 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net125"
+record 266: 2019-01-16 21:03:00.040
+record 267: 2019-01-16 21:03:00.051 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net126"
+record 268: 2019-01-16 21:03:00.182
+record 269: 2019-01-16 21:03:00.192 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net127"
+record 270: 2019-01-16 21:03:00.324
+record 271: 2019-01-16 21:03:00.336 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net128"
+record 272: 2019-01-16 21:03:00.459
+record 273: 2019-01-16 21:03:00.470 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net129"
+record 274: 2019-01-16 21:03:00.590
+record 275: 2019-01-16 21:03:00.601 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net130"
+record 276: 2019-01-16 21:03:00.720
+record 277: 2019-01-16 21:03:00.730 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net131"
+record 278: 2019-01-16 21:03:00.846
+record 279: 2019-01-16 21:03:00.857 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net132"
+record 280: 2019-01-16 21:03:00.973
+record 281: 2019-01-16 21:03:00.983 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net133"
+record 282: 2019-01-16 21:03:01.082
+record 283: 2019-01-16 21:03:01.091 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net134"
+record 284: 2019-01-16 21:03:01.206
+record 285: 2019-01-16 21:03:01.215 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net135"
+record 286: 2019-01-16 21:03:01.313
+record 287: 2019-01-16 21:03:01.322 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net136"
+record 288: 2019-01-16 21:03:01.420
+record 289: 2019-01-16 21:03:01.429 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net137"
+record 290: 2019-01-16 21:03:01.513
+record 291: 2019-01-16 21:03:01.522 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net138"
+record 292: 2019-01-16 21:03:01.608
+record 293: 2019-01-16 21:03:01.617 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net139"
+record 294: 2019-01-16 21:03:01.683
+record 295: 2019-01-16 21:03:01.692 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net140"
+record 296: 2019-01-16 21:03:01.757
+record 297: 2019-01-16 21:03:01.766 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net141"
+record 298: 2019-01-16 21:03:01.832
+record 299: 2019-01-16 21:03:01.843 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net142"
+record 300: 2019-01-16 21:03:01.905
+record 301: 2019-01-16 21:03:01.914 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net143"
+record 302: 2019-01-16 21:03:01.966
+record 303: 2019-01-16 21:03:01.974 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net144"
+record 304: 2019-01-16 21:03:02.024
+record 305: 2019-01-16 21:03:02.034 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net145"
+record 306: 2019-01-16 21:03:02.078
+record 307: 2019-01-16 21:03:02.088 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net146"
+record 308: 2019-01-16 21:03:02.144
+record 309: 2019-01-16 21:03:02.154 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net147"
+record 310: 2019-01-16 21:03:02.179
+record 311: 2019-01-16 21:03:02.189 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net148"
+record 312: 2019-01-16 21:03:02.224
+record 313: 2019-01-16 21:03:02.232 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net149"
+record 314: 2019-01-16 21:03:02.261
+record 315: 2019-01-16 21:03:02.269 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net150"
+record 316: 2019-01-16 21:03:02.318
+record 317: 2019-01-16 21:35:51.768 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net1 -- set Bridge Net1 fail-mode=secure"
+record 318: 2019-01-16 21:35:51.774
+record 319: 2019-01-16 21:35:51.774
+record 320: 2019-01-16 21:35:51.786 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 321: 2019-01-16 21:35:51.787
+record 322: 2019-01-16 21:35:51.820 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net2 -- set Bridge Net2 fail-mode=secure"
+record 323: 2019-01-16 21:35:51.824
+record 324: 2019-01-16 21:35:51.824
+record 325: 2019-01-16 21:35:51.835 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 326: 2019-01-16 21:35:51.835
+record 327: 2019-01-16 21:35:51.860 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net3 -- set Bridge Net3 fail-mode=secure"
+record 328: 2019-01-16 21:35:51.864
+record 329: 2019-01-16 21:35:51.865
+record 330: 2019-01-16 21:35:51.874 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net3 protocols=OpenFlow13"
+record 331: 2019-01-16 21:35:51.875
+record 332: 2019-01-16 21:35:51.904 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link12-0"
+record 333: 2019-01-16 21:35:51.905
+record 334: 2019-01-16 21:35:51.911 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link12-1"
+record 335: 2019-01-16 21:35:51.913
+record 336: 2019-01-16 21:35:51.935 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link23-0"
+record 337: 2019-01-16 21:35:51.936
+record 338: 2019-01-16 21:35:51.941 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net3 link23-1"
+record 339: 2019-01-16 21:35:51.941
+record 340: 2019-01-16 21:35:51.967 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net3 link31-0"
+record 341: 2019-01-16 21:35:51.968
+record 342: 2019-01-16 21:35:51.974 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link31-1"
+record 343: 2019-01-16 21:35:51.975
+record 344: 2019-01-16 21:35:52.935 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 345: 2019-01-16 21:35:52.936
+record 346: 2019-01-16 21:35:52.941 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 347: 2019-01-16 21:35:52.942
+record 348: 2019-01-16 21:35:52.947 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net3 tcp:10.10.10.2:6653"
+record 349: 2019-01-16 21:35:52.947
+record 350: 2019-01-16 21:36:01.767 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link12-0"
+record 351: 2019-01-16 21:36:01.769
+record 352: 2019-01-16 21:36:01.785
+record 353: 2019-01-16 21:36:01.815 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link31-1"
+record 354: 2019-01-16 21:36:01.817
+record 355: 2019-01-16 21:36:01.838
+record 356: 2019-01-16 21:36:02.146 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net1"
+record 357: 2019-01-16 21:36:02.202
+record 358: 2019-01-16 21:36:02.217 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link12-1"
+record 359: 2019-01-16 21:36:02.223
+record 360: 2019-01-16 21:36:02.247 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link23-0"
+record 361: 2019-01-16 21:36:02.253
+record 362: 2019-01-16 21:36:02.304
+record 363: 2019-01-16 21:36:02.340 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net2"
+record 364: 2019-01-16 21:36:02.385
+record 365: 2019-01-16 21:36:02.390 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net3 link23-1"
+record 366: 2019-01-16 21:36:02.392
+record 367: 2019-01-16 21:36:02.401 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net3 link31-0"
+record 368: 2019-01-16 21:36:02.401
+record 369: 2019-01-16 21:36:02.419 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net3"
+record 370: 2019-01-16 21:36:02.478
+record 371: 2019-01-16 22:20:26.378 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net1"
+record 372: 2019-01-16 22:20:26.388
+record 373: 2019-01-16 22:20:26.389
+record 374: 2019-01-16 22:20:26.406 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 375: 2019-01-16 22:20:26.407
+record 376: 2019-01-16 22:20:26.417 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net2"
+record 377: 2019-01-16 22:20:26.423
+record 378: 2019-01-16 22:20:26.423
+record 379: 2019-01-16 22:20:26.434 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 380: 2019-01-16 22:20:26.435
+record 381: 2019-01-16 22:20:26.448 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net3"
+record 382: 2019-01-16 22:20:26.454
+record 383: 2019-01-16 22:20:26.454
+record 384: 2019-01-16 22:20:26.469 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net3 protocols=OpenFlow13"
+record 385: 2019-01-16 22:20:26.470
+record 386: 2019-01-16 22:20:26.481 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net4"
+record 387: 2019-01-16 22:20:26.487
+record 388: 2019-01-16 22:20:26.487
+record 389: 2019-01-16 22:20:26.498 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net4 protocols=OpenFlow13"
+record 390: 2019-01-16 22:20:26.499
+record 391: 2019-01-16 22:20:26.512 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net5"
+record 392: 2019-01-16 22:20:26.516
+record 393: 2019-01-16 22:20:26.516
+record 394: 2019-01-16 22:20:26.531 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net5 protocols=OpenFlow13"
+record 395: 2019-01-16 22:20:26.531
+record 396: 2019-01-16 22:20:26.543 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net6"
+record 397: 2019-01-16 22:20:26.552
+record 398: 2019-01-16 22:20:26.552
+record 399: 2019-01-16 22:20:26.563 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net6 protocols=OpenFlow13"
+record 400: 2019-01-16 22:20:26.564
+record 401: 2019-01-16 22:20:26.577 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net7"
+record 402: 2019-01-16 22:20:26.584
+record 403: 2019-01-16 22:20:26.586
+record 404: 2019-01-16 22:20:26.598 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net7 protocols=OpenFlow13"
+record 405: 2019-01-16 22:20:26.598
+record 406: 2019-01-16 22:20:26.610 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net8"
+record 407: 2019-01-16 22:20:26.615
+record 408: 2019-01-16 22:20:26.618
+record 409: 2019-01-16 22:20:26.630 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net8 protocols=OpenFlow13"
+record 410: 2019-01-16 22:20:26.631
+record 411: 2019-01-16 22:20:26.642 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net9"
+record 412: 2019-01-16 22:20:26.647
+record 413: 2019-01-16 22:20:26.647
+record 414: 2019-01-16 22:20:26.662 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net9 protocols=OpenFlow13"
+record 415: 2019-01-16 22:20:26.663
+record 416: 2019-01-16 22:20:26.674 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net10"
+record 417: 2019-01-16 22:20:26.681
+record 418: 2019-01-16 22:20:26.682
+record 419: 2019-01-16 22:20:26.694 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net10 protocols=OpenFlow13"
+record 420: 2019-01-16 22:20:26.695
+record 421: 2019-01-16 22:20:27.130 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link1-2-1"
+record 422: 2019-01-16 22:20:27.134
+record 423: 2019-01-16 22:20:27.149 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link10-1-2"
+record 424: 2019-01-16 22:20:27.150
+record 425: 2019-01-16 22:20:27.159 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link2-3-1"
+record 426: 2019-01-16 22:20:27.161
+record 427: 2019-01-16 22:20:27.170 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link1-2-2"
+record 428: 2019-01-16 22:20:27.171
+record 429: 2019-01-16 22:20:27.180 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link3-4-1"
+record 430: 2019-01-16 22:20:27.182
+record 431: 2019-01-16 22:20:27.192 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link2-3-2"
+record 432: 2019-01-16 22:20:27.193
+record 433: 2019-01-16 22:20:27.203 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link4-5-1"
+record 434: 2019-01-16 22:20:27.205
+record 435: 2019-01-16 22:20:27.215 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link3-4-2"
+record 436: 2019-01-16 22:20:27.216
+record 437: 2019-01-16 22:20:27.226 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link5-6-1"
+record 438: 2019-01-16 22:20:27.227
+record 439: 2019-01-16 22:20:27.236 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link4-5-2"
+record 440: 2019-01-16 22:20:27.239
+record 441: 2019-01-16 22:20:27.248 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net6 Link6-7-1"
+record 442: 2019-01-16 22:20:27.250
+record 443: 2019-01-16 22:20:27.259 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net6 Link5-6-2"
+record 444: 2019-01-16 22:20:27.260
+record 445: 2019-01-16 22:20:27.272 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net7 Link7-8-1"
+record 446: 2019-01-16 22:20:27.274
+record 447: 2019-01-16 22:20:27.284 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net7 Link6-7-2"
+record 448: 2019-01-16 22:20:27.285
+record 449: 2019-01-16 22:20:27.295 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net8 Link8-9-1"
+record 450: 2019-01-16 22:20:27.297
+record 451: 2019-01-16 22:20:27.307 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net8 Link7-8-2"
+record 452: 2019-01-16 22:20:27.308
+record 453: 2019-01-16 22:20:27.318 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net9 Link9-10-1"
+record 454: 2019-01-16 22:20:27.320
+record 455: 2019-01-16 22:20:27.330 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net9 Link8-9-2"
+record 456: 2019-01-16 22:20:27.332
+record 457: 2019-01-16 22:20:27.342 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net10 Link10-1-1"
+record 458: 2019-01-16 22:20:27.344
+record 459: 2019-01-16 22:20:27.354 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net10 Link9-10-2"
+record 460: 2019-01-16 22:20:27.356
+record 461: 2019-01-16 22:20:27.367 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 462: 2019-01-16 22:20:27.372
+record 463: 2019-01-16 22:20:27.387 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 464: 2019-01-16 22:20:27.389
+record 465: 2019-01-16 22:20:27.402 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net3 tcp:10.10.10.2:6653"
+record 466: 2019-01-16 22:20:27.404
+record 467: 2019-01-16 22:20:27.414 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net4 tcp:10.10.10.2:6653"
+record 468: 2019-01-16 22:20:27.415
+record 469: 2019-01-16 22:20:27.426 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net5 tcp:10.10.10.2:6653"
+record 470: 2019-01-16 22:20:27.429
+record 471: 2019-01-16 22:20:27.442 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net6 tcp:10.10.10.2:6653"
+record 472: 2019-01-16 22:20:27.444
+record 473: 2019-01-16 22:20:27.466 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net7 tcp:10.10.10.2:6653"
+record 474: 2019-01-16 22:20:27.469
+record 475: 2019-01-16 22:20:27.496 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net8 tcp:10.10.10.2:6653"
+record 476: 2019-01-16 22:20:27.498
+record 477: 2019-01-16 22:20:27.513 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net9 tcp:10.10.10.2:6653"
+record 478: 2019-01-16 22:20:27.516
+record 479: 2019-01-16 22:20:27.548 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net10 tcp:10.10.10.2:6653"
+record 480: 2019-01-16 22:20:27.552
+record 481: 2019-01-16 22:30:44.270 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net1"
+record 482: 2019-01-16 22:30:44.309
+record 483: 2019-01-16 22:30:44.323 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net2"
+record 484: 2019-01-16 22:30:44.349
+record 485: 2019-01-16 22:30:44.363 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net3"
+record 486: 2019-01-16 22:30:44.388
+record 487: 2019-01-16 22:30:44.403 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net4"
+record 488: 2019-01-16 22:30:44.444
+record 489: 2019-01-16 22:30:44.471 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net5"
+record 490: 2019-01-16 22:30:44.496
+record 491: 2019-01-16 22:30:44.514 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net6"
+record 492: 2019-01-16 22:30:44.549
+record 493: 2019-01-16 22:30:44.560 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net7"
+record 494: 2019-01-16 22:30:44.586
+record 495: 2019-01-16 22:30:44.599 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net8"
+record 496: 2019-01-16 22:30:44.632
+record 497: 2019-01-16 22:30:44.644 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net9"
+record 498: 2019-01-16 22:30:44.672
+record 499: 2019-01-16 22:30:44.684 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net10"
+record 500: 2019-01-16 22:30:44.743
+record 501: 2019-01-16 22:31:23.794 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net1"
+record 502: 2019-01-16 22:31:23.814
+record 503: 2019-01-16 22:31:23.815
+record 504: 2019-01-16 22:31:23.832 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 505: 2019-01-16 22:31:23.833
+record 506: 2019-01-16 22:31:23.846 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net2"
+record 507: 2019-01-16 22:31:23.851
+record 508: 2019-01-16 22:31:23.851
+record 509: 2019-01-16 22:31:23.861 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 510: 2019-01-16 22:31:23.861
+record 511: 2019-01-16 22:31:23.871 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net3"
+record 512: 2019-01-16 22:31:23.876
+record 513: 2019-01-16 22:31:23.876
+record 514: 2019-01-16 22:31:23.886 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net3 protocols=OpenFlow13"
+record 515: 2019-01-16 22:31:23.886
+record 516: 2019-01-16 22:31:23.896 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net4"
+record 517: 2019-01-16 22:31:23.899
+record 518: 2019-01-16 22:31:23.900
+record 519: 2019-01-16 22:31:23.909 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net4 protocols=OpenFlow13"
+record 520: 2019-01-16 22:31:23.910
+record 521: 2019-01-16 22:31:23.918 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net5"
+record 522: 2019-01-16 22:31:23.924
+record 523: 2019-01-16 22:31:23.924
+record 524: 2019-01-16 22:31:23.934 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net5 protocols=OpenFlow13"
+record 525: 2019-01-16 22:31:23.935
+record 526: 2019-01-16 22:31:23.945 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net6"
+record 527: 2019-01-16 22:31:23.948
+record 528: 2019-01-16 22:31:23.948
+record 529: 2019-01-16 22:31:23.960 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net6 protocols=OpenFlow13"
+record 530: 2019-01-16 22:31:23.960
+record 531: 2019-01-16 22:31:23.971 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net7"
+record 532: 2019-01-16 22:31:23.977
+record 533: 2019-01-16 22:31:23.977
+record 534: 2019-01-16 22:31:23.987 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net7 protocols=OpenFlow13"
+record 535: 2019-01-16 22:31:23.987
+record 536: 2019-01-16 22:31:23.998 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net8"
+record 537: 2019-01-16 22:31:24.001
+record 538: 2019-01-16 22:31:24.001
+record 539: 2019-01-16 22:31:24.012 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net8 protocols=OpenFlow13"
+record 540: 2019-01-16 22:31:24.012
+record 541: 2019-01-16 22:31:24.023 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net9"
+record 542: 2019-01-16 22:31:24.027
+record 543: 2019-01-16 22:31:24.028
+record 544: 2019-01-16 22:31:24.038 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net9 protocols=OpenFlow13"
+record 545: 2019-01-16 22:31:24.039
+record 546: 2019-01-16 22:31:24.050 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net10"
+record 547: 2019-01-16 22:31:24.058
+record 548: 2019-01-16 22:31:24.058
+record 549: 2019-01-16 22:31:24.068 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net10 protocols=OpenFlow13"
+record 550: 2019-01-16 22:31:24.069
+record 551: 2019-01-16 22:31:24.452 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link1-2-1"
+record 552: 2019-01-16 22:31:24.453
+record 553: 2019-01-16 22:31:24.462 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link10-1-2"
+record 554: 2019-01-16 22:31:24.464
+record 555: 2019-01-16 22:31:24.473 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link2-3-1"
+record 556: 2019-01-16 22:31:24.474
+record 557: 2019-01-16 22:31:24.483 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link1-2-2"
+record 558: 2019-01-16 22:31:24.485
+record 559: 2019-01-16 22:31:24.495 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link3-4-1"
+record 560: 2019-01-16 22:31:24.496
+record 561: 2019-01-16 22:31:24.505 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link2-3-2"
+record 562: 2019-01-16 22:31:24.506
+record 563: 2019-01-16 22:31:24.515 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link4-5-1"
+record 564: 2019-01-16 22:31:24.517
+record 565: 2019-01-16 22:31:24.525 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link3-4-2"
+record 566: 2019-01-16 22:31:24.527
+record 567: 2019-01-16 22:31:24.536 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link5-6-1"
+record 568: 2019-01-16 22:31:24.537
+record 569: 2019-01-16 22:31:24.546 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link4-5-2"
+record 570: 2019-01-16 22:31:24.548
+record 571: 2019-01-16 22:31:24.557 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net6 Link6-7-1"
+record 572: 2019-01-16 22:31:24.559
+record 573: 2019-01-16 22:31:24.568 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net6 Link5-6-2"
+record 574: 2019-01-16 22:31:24.569
+record 575: 2019-01-16 22:31:24.579 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net7 Link7-8-1"
+record 576: 2019-01-16 22:31:24.580
+record 577: 2019-01-16 22:31:24.590 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net7 Link6-7-2"
+record 578: 2019-01-16 22:31:24.591
+record 579: 2019-01-16 22:31:24.600 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net8 Link8-9-1"
+record 580: 2019-01-16 22:31:24.602
+record 581: 2019-01-16 22:31:24.611 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net8 Link7-8-2"
+record 582: 2019-01-16 22:31:24.613
+record 583: 2019-01-16 22:31:24.622 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net9 Link9-10-1"
+record 584: 2019-01-16 22:31:24.624
+record 585: 2019-01-16 22:31:24.633 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net9 Link8-9-2"
+record 586: 2019-01-16 22:31:24.634
+record 587: 2019-01-16 22:31:24.644 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net10 Link10-1-1"
+record 588: 2019-01-16 22:31:24.645
+record 589: 2019-01-16 22:31:24.654 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net10 Link9-10-2"
+record 590: 2019-01-16 22:31:24.656
+record 591: 2019-01-16 22:31:24.665 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 592: 2019-01-16 22:31:24.667
+record 593: 2019-01-16 22:31:24.679 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 594: 2019-01-16 22:31:24.681
+record 595: 2019-01-16 22:31:24.694 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net3 tcp:10.10.10.2:6653"
+record 596: 2019-01-16 22:31:24.699
+record 597: 2019-01-16 22:31:24.711 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net4 tcp:10.10.10.2:6653"
+record 598: 2019-01-16 22:31:24.713
+record 599: 2019-01-16 22:31:24.752 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net5 tcp:10.10.10.2:6653"
+record 600: 2019-01-16 22:31:24.758
+record 601: 2019-01-16 22:31:24.777 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net6 tcp:10.10.10.2:6653"
+record 602: 2019-01-16 22:31:24.780
+record 603: 2019-01-16 22:31:24.791 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net7 tcp:10.10.10.2:6653"
+record 604: 2019-01-16 22:31:24.797
+record 605: 2019-01-16 22:31:24.816 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net8 tcp:10.10.10.2:6653"
+record 606: 2019-01-16 22:31:24.824
+record 607: 2019-01-16 22:31:24.848 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net9 tcp:10.10.10.2:6653"
+record 608: 2019-01-16 22:31:24.851
+record 609: 2019-01-16 22:31:24.881 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net10 tcp:10.10.10.2:6653"
+record 610: 2019-01-16 22:31:24.884
+record 611: 2019-01-16 22:32:05.544 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net1"
+record 612: 2019-01-16 22:32:05.571
+record 613: 2019-01-16 22:32:05.581 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net2"
+record 614: 2019-01-16 22:32:05.617
+record 615: 2019-01-16 22:32:05.626 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net3"
+record 616: 2019-01-16 22:32:05.649
+record 617: 2019-01-16 22:32:05.658 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net4"
+record 618: 2019-01-16 22:32:05.680
+record 619: 2019-01-16 22:32:05.690 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net5"
+record 620: 2019-01-16 22:32:05.709
+record 621: 2019-01-16 22:32:05.718 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net6"
+record 622: 2019-01-16 22:32:05.740
+record 623: 2019-01-16 22:32:05.749 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net7"
+record 624: 2019-01-16 22:32:05.795
+record 625: 2019-01-16 22:32:05.815 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net8"
+record 626: 2019-01-16 22:32:05.845
+record 627: 2019-01-16 22:32:05.858 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net9"
+record 628: 2019-01-16 22:32:05.888
+record 629: 2019-01-16 22:32:05.896 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net10"
+record 630: 2019-01-16 22:32:05.987
+record 631: 2019-01-16 22:34:32.158 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net1"
+record 632: 2019-01-16 22:34:32.165
+record 633: 2019-01-16 22:34:32.165
+record 634: 2019-01-16 22:34:32.180 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 635: 2019-01-16 22:34:32.180
+record 636: 2019-01-16 22:34:32.193 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net2"
+record 637: 2019-01-16 22:34:32.197
+record 638: 2019-01-16 22:34:32.198
+record 639: 2019-01-16 22:34:32.208 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 640: 2019-01-16 22:34:32.208
+record 641: 2019-01-16 22:34:32.218 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net3"
+record 642: 2019-01-16 22:34:32.221
+record 643: 2019-01-16 22:34:32.221
+record 644: 2019-01-16 22:34:32.232 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net3 protocols=OpenFlow13"
+record 645: 2019-01-16 22:34:32.232
+record 646: 2019-01-16 22:34:32.243 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net4"
+record 647: 2019-01-16 22:34:32.245
+record 648: 2019-01-16 22:34:32.245
+record 649: 2019-01-16 22:34:32.257 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net4 protocols=OpenFlow13"
+record 650: 2019-01-16 22:34:32.257
+record 651: 2019-01-16 22:34:32.267 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net5"
+record 652: 2019-01-16 22:34:32.270
+record 653: 2019-01-16 22:34:32.270
+record 654: 2019-01-16 22:34:32.282 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net5 protocols=OpenFlow13"
+record 655: 2019-01-16 22:34:32.283
+record 656: 2019-01-16 22:34:32.462 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link1-2-1"
+record 657: 2019-01-16 22:34:32.464
+record 658: 2019-01-16 22:34:32.472 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link5-1-2"
+record 659: 2019-01-16 22:34:32.473
+record 660: 2019-01-16 22:34:32.482 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link2-3-1"
+record 661: 2019-01-16 22:34:32.483
+record 662: 2019-01-16 22:34:32.492 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link1-2-2"
+record 663: 2019-01-16 22:34:32.493
+record 664: 2019-01-16 22:34:32.501 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link3-4-1"
+record 665: 2019-01-16 22:34:32.502
+record 666: 2019-01-16 22:34:32.511 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link2-3-2"
+record 667: 2019-01-16 22:34:32.512
+record 668: 2019-01-16 22:34:32.521 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link4-5-1"
+record 669: 2019-01-16 22:34:32.522
+record 670: 2019-01-16 22:34:32.530 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link3-4-2"
+record 671: 2019-01-16 22:34:32.531
+record 672: 2019-01-16 22:34:32.540 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link5-1-1"
+record 673: 2019-01-16 22:34:32.541
+record 674: 2019-01-16 22:34:32.550 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link4-5-2"
+record 675: 2019-01-16 22:34:32.552
+record 676: 2019-01-16 22:34:32.560 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 677: 2019-01-16 22:34:32.561
+record 678: 2019-01-16 22:34:32.572 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 679: 2019-01-16 22:34:32.573
+record 680: 2019-01-16 22:34:32.594 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net3 tcp:10.10.10.2:6653"
+record 681: 2019-01-16 22:34:32.596
+record 682: 2019-01-16 22:34:32.605 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net4 tcp:10.10.10.2:6653"
+record 683: 2019-01-16 22:34:32.607
+record 684: 2019-01-16 22:34:32.617 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net5 tcp:10.10.10.2:6653"
+record 685: 2019-01-16 22:34:32.619
+record 686: 2019-01-16 22:35:26.753 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 687: 2019-01-16 22:35:26.769
+record 688: 2019-01-16 22:35:26.769
+record 689: 2019-01-16 22:35:26.799 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 690: 2019-01-16 22:35:26.800
+record 691: 2019-01-16 22:35:26.821 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 692: 2019-01-16 22:35:26.824
+record 693: 2019-01-16 22:35:43.160 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 694: 2019-01-16 22:35:43.161
+record 695: 2019-01-16 22:53:33.887 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link12-0"
+record 696: 2019-01-16 22:53:33.903
+record 697: 2019-01-16 22:53:33.921 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link12-1"
+record 698: 2019-01-16 22:53:34.059
+record 699: 2019-01-16 22:53:34.180 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link21-0"
+record 700: 2019-01-16 22:53:34.259
+record 701: 2019-01-16 22:53:34.274 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link21-1"
+record 702: 2019-01-16 22:53:34.460
+record 703: 2019-01-16 22:53:36.339 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 704: 2019-01-16 22:53:36.340
+record 705: 2019-01-16 22:53:36.367 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 706: 2019-01-16 22:53:36.368
+record 707: 2019-01-16 22:54:40.626 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link12-0"
+record 708: 2019-01-16 22:54:40.628
+record 709: 2019-01-16 22:54:40.652
+record 710: 2019-01-16 22:54:40.671 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link21-1"
+record 711: 2019-01-16 22:54:40.674
+record 712: 2019-01-16 22:54:40.695
+record 713: 2019-01-16 22:54:40.995 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link12-1"
+record 714: 2019-01-16 22:54:41.001
+record 715: 2019-01-16 22:54:41.025 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link21-0"
+record 716: 2019-01-16 22:54:41.028
+record 717: 2019-01-16 22:56:12.042 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 718: 2019-01-16 22:56:12.044
+record 719: 2019-01-16 22:59:11.465 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 720: 2019-01-16 22:59:11.466
+record 721: 2019-01-16 22:59:55.050 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net1"
+record 722: 2019-01-16 22:59:55.088
+record 723: 2019-01-16 22:59:55.114 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net2"
+record 724: 2019-01-16 22:59:55.157
+record 725: 2019-01-16 22:59:55.169 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net3"
+record 726: 2019-01-16 22:59:55.197
+record 727: 2019-01-16 22:59:55.208 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net4"
+record 728: 2019-01-16 22:59:55.231
+record 729: 2019-01-16 22:59:55.243 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net5"
+record 730: 2019-01-16 22:59:55.273
+record 731: 2019-01-16 23:00:03.870 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 732: 2019-01-16 23:00:03.931
+record 733: 2019-01-16 23:05:26.463 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 734: 2019-01-16 23:05:26.485
+record 735: 2019-01-16 23:05:26.487
+record 736: 2019-01-16 23:05:26.504 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 737: 2019-01-16 23:05:26.504
+record 738: 2019-01-16 23:05:26.519 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 739: 2019-01-16 23:05:26.519
+record 740: 2019-01-16 23:09:59.049 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 741: 2019-01-16 23:09:59.050
+record 742: 2019-01-16 23:10:21.981 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 743: 2019-01-16 23:10:21.981
+record 744: 2019-01-16 23:12:34.711 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:12.12.12.13:6653"
+record 745: 2019-01-16 23:12:34.712
+record 746: 2019-01-16 23:12:43.644 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 747: 2019-01-16 23:12:43.703
+record 748: 2019-01-16 23:13:07.561 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 749: 2019-01-16 23:13:07.570
+record 750: 2019-01-16 23:13:07.570
+record 751: 2019-01-16 23:13:07.583 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 752: 2019-01-16 23:13:07.584
+record 753: 2019-01-16 23:13:07.598 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:12.12.12.13:6653"
+record 754: 2019-01-16 23:13:07.602
+record 755: 2019-01-16 23:14:17.437 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 756: 2019-01-16 23:14:17.491
+record 757: 2019-01-16 23:15:13.619 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 758: 2019-01-16 23:15:13.631
+record 759: 2019-01-16 23:15:13.631
+record 760: 2019-01-16 23:15:13.645 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 761: 2019-01-16 23:15:13.646
+record 762: 2019-01-16 23:15:13.661 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 763: 2019-01-16 23:15:13.662
+record 764: 2019-01-16 23:15:36.001 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 765: 2019-01-16 23:15:36.078
+record 766: 2019-01-16 23:20:46.574 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 767: 2019-01-16 23:20:46.599
+record 768: 2019-01-16 23:20:46.600
+record 769: 2019-01-16 23:20:46.618 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 770: 2019-01-16 23:20:46.619
+record 771: 2019-01-16 23:20:46.634 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:102.12.13.3:6653"
+record 772: 2019-01-16 23:20:46.635
+record 773: 2019-01-16 23:20:59.180 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 774: 2019-01-16 23:20:59.239
+record 775: 2019-01-16 23:23:30.438 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net1"
+record 776: 2019-01-16 23:23:30.458
+record 777: 2019-01-16 23:23:30.459
+record 778: 2019-01-16 23:23:30.480 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 779: 2019-01-16 23:23:30.481
+record 780: 2019-01-16 23:23:30.495 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net2"
+record 781: 2019-01-16 23:23:30.499
+record 782: 2019-01-16 23:23:30.499
+record 783: 2019-01-16 23:23:30.510 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 784: 2019-01-16 23:23:30.510
+record 785: 2019-01-16 23:23:30.520 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net3"
+record 786: 2019-01-16 23:23:30.523
+record 787: 2019-01-16 23:23:30.523
+record 788: 2019-01-16 23:23:30.534 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net3 protocols=OpenFlow13"
+record 789: 2019-01-16 23:23:30.535
+record 790: 2019-01-16 23:23:30.544 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net4"
+record 791: 2019-01-16 23:23:30.548
+record 792: 2019-01-16 23:23:30.550
+record 793: 2019-01-16 23:23:30.558 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net4 protocols=OpenFlow13"
+record 794: 2019-01-16 23:23:30.559
+record 795: 2019-01-16 23:23:30.569 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net5"
+record 796: 2019-01-16 23:23:30.572
+record 797: 2019-01-16 23:23:30.572
+record 798: 2019-01-16 23:23:30.584 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net5 protocols=OpenFlow13"
+record 799: 2019-01-16 23:23:30.584
+record 800: 2019-01-16 23:23:30.740 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link1-2-1"
+record 801: 2019-01-16 23:23:30.741
+record 802: 2019-01-16 23:23:30.751 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link5-1-2"
+record 803: 2019-01-16 23:23:30.752
+record 804: 2019-01-16 23:23:30.761 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link2-3-1"
+record 805: 2019-01-16 23:23:30.762
+record 806: 2019-01-16 23:23:30.771 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link1-2-2"
+record 807: 2019-01-16 23:23:30.772
+record 808: 2019-01-16 23:23:30.780 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link3-4-1"
+record 809: 2019-01-16 23:23:30.781
+record 810: 2019-01-16 23:23:30.790 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link2-3-2"
+record 811: 2019-01-16 23:23:30.791
+record 812: 2019-01-16 23:23:30.800 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link4-5-1"
+record 813: 2019-01-16 23:23:30.801
+record 814: 2019-01-16 23:23:30.810 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link3-4-2"
+record 815: 2019-01-16 23:23:30.811
+record 816: 2019-01-16 23:23:30.820 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link5-1-1"
+record 817: 2019-01-16 23:23:30.821
+record 818: 2019-01-16 23:23:30.829 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link4-5-2"
+record 819: 2019-01-16 23:23:30.830
+record 820: 2019-01-16 23:23:30.839 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net1 tcp:102.12.13.3:6653"
+record 821: 2019-01-16 23:23:30.841
+record 822: 2019-01-16 23:23:30.854 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net2 tcp:102.12.13.3:6653"
+record 823: 2019-01-16 23:23:30.856
+record 824: 2019-01-16 23:23:30.873 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net3 tcp:102.12.13.3:6653"
+record 825: 2019-01-16 23:23:30.874
+record 826: 2019-01-16 23:23:30.899 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net4 tcp:102.12.13.3:6653"
+record 827: 2019-01-16 23:23:30.902
+record 828: 2019-01-16 23:23:30.916 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net5 tcp:102.12.13.3:6653"
+record 829: 2019-01-16 23:23:30.919
+record 830: 2019-01-16 23:26:41.152 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net1"
+record 831: 2019-01-16 23:26:41.184
+record 832: 2019-01-16 23:26:41.194 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net2"
+record 833: 2019-01-16 23:26:41.219
+record 834: 2019-01-16 23:26:41.228 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net3"
+record 835: 2019-01-16 23:26:41.252
+record 836: 2019-01-16 23:26:41.260 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net4"
+record 837: 2019-01-16 23:26:41.288
+record 838: 2019-01-16 23:26:41.295 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net5"
+record 839: 2019-01-16 23:26:41.350
+record 840: 2019-01-16 23:42:11.557 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net1 -- set Bridge Net1 fail-mode=secure"
+record 841: 2019-01-16 23:42:11.564
+record 842: 2019-01-16 23:42:11.565
+record 843: 2019-01-16 23:42:11.578 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 844: 2019-01-16 23:42:11.579
+record 845: 2019-01-16 23:42:11.618 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net2 -- set Bridge Net2 fail-mode=secure"
+record 846: 2019-01-16 23:42:11.621
+record 847: 2019-01-16 23:42:11.621
+record 848: 2019-01-16 23:42:11.634 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 849: 2019-01-16 23:42:11.635
+record 850: 2019-01-16 23:42:11.671 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link12-0"
+record 851: 2019-01-16 23:42:11.673
+record 852: 2019-01-16 23:42:11.680 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link12-1"
+record 853: 2019-01-16 23:42:11.681
+record 854: 2019-01-16 23:42:11.709 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link21-0"
+record 855: 2019-01-16 23:42:11.710
+record 856: 2019-01-16 23:42:11.718 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link21-1"
+record 857: 2019-01-16 23:42:11.719
+record 858: 2019-01-16 23:42:14.581 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 PC1_1-e1"
+record 859: 2019-01-16 23:42:14.585
+record 860: 2019-01-16 23:42:14.616 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 PC2_1-e1"
+record 861: 2019-01-16 23:42:14.620
+record 862: 2019-01-16 23:42:14.640 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 863: 2019-01-16 23:42:14.644
+record 864: 2019-01-16 23:42:14.663 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 865: 2019-01-16 23:42:14.666
+record 866: 2019-01-16 23:42:21.982 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 PC1_1-e1"
+record 867: 2019-01-16 23:42:21.983
+record 868: 2019-01-16 23:42:22.622 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 PC2_1-e1"
+record 869: 2019-01-16 23:42:22.625
+record 870: 2019-01-16 23:42:24.148 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link12-0"
+record 871: 2019-01-16 23:42:24.149
+record 872: 2019-01-16 23:42:24.168
+record 873: 2019-01-16 23:42:24.194 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link21-1"
+record 874: 2019-01-16 23:42:24.197
+record 875: 2019-01-16 23:42:24.215
+record 876: 2019-01-16 23:42:24.247 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net1"
+record 877: 2019-01-16 23:42:24.274
+record 878: 2019-01-16 23:42:24.279 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link12-1"
+record 879: 2019-01-16 23:42:24.281
+record 880: 2019-01-16 23:42:24.290 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link21-0"
+record 881: 2019-01-16 23:42:24.291
+record 882: 2019-01-16 23:42:24.309 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net2"
+record 883: 2019-01-16 23:42:24.367
+record 884: 2019-01-16 23:48:38.297 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net1 -- set Bridge Net1 fail-mode=secure"
+record 885: 2019-01-16 23:48:38.303
+record 886: 2019-01-16 23:48:38.303
+record 887: 2019-01-16 23:48:38.319 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 888: 2019-01-16 23:48:38.319
+record 889: 2019-01-16 23:48:38.355 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net2 -- set Bridge Net2 fail-mode=secure"
+record 890: 2019-01-16 23:48:38.359
+record 891: 2019-01-16 23:48:38.359
+record 892: 2019-01-16 23:48:38.369 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 893: 2019-01-16 23:48:38.369
+record 894: 2019-01-16 23:48:38.399 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link12-0"
+record 895: 2019-01-16 23:48:38.400
+record 896: 2019-01-16 23:48:38.408 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link12-1"
+record 897: 2019-01-16 23:48:38.410
+record 898: 2019-01-16 23:48:38.433 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link21-0"
+record 899: 2019-01-16 23:48:38.435
+record 900: 2019-01-16 23:48:38.441 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link21-1"
+record 901: 2019-01-16 23:48:38.442
+record 902: 2019-01-16 23:48:41.242 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 PC1_1-e1"
+record 903: 2019-01-16 23:48:41.246
+record 904: 2019-01-16 23:48:41.277 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 PC2_1-e1"
+record 905: 2019-01-16 23:48:41.280
+record 906: 2019-01-16 23:48:41.300 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 907: 2019-01-16 23:48:41.304
+record 908: 2019-01-16 23:48:41.319 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 909: 2019-01-16 23:48:41.322
+record 910: 2019-01-16 23:48:57.091 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 PC1_1-e1"
+record 911: 2019-01-16 23:48:57.095
+record 912: 2019-01-16 23:48:57.763 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 PC2_1-e1"
+record 913: 2019-01-16 23:48:57.766
+record 914: 2019-01-16 23:48:58.979 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link12-0"
+record 915: 2019-01-16 23:48:58.980
+record 916: 2019-01-16 23:48:59.003
+record 917: 2019-01-16 23:48:59.015 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link21-1"
+record 918: 2019-01-16 23:48:59.017
+record 919: 2019-01-16 23:48:59.042
+record 920: 2019-01-16 23:48:59.067 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net1"
+record 921: 2019-01-16 23:48:59.108
+record 922: 2019-01-16 23:48:59.132 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link12-1"
+record 923: 2019-01-16 23:48:59.140
+record 924: 2019-01-16 23:48:59.172 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link21-0"
+record 925: 2019-01-16 23:48:59.174
+record 926: 2019-01-16 23:48:59.232 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net2"
+record 927: 2019-01-16 23:48:59.311
+record 928: 2019-01-16 23:54:51.359 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net1 -- set Bridge Net1 fail-mode=secure"
+record 929: 2019-01-16 23:54:51.365
+record 930: 2019-01-16 23:54:51.365
+record 931: 2019-01-16 23:54:51.383 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 932: 2019-01-16 23:54:51.383
+record 933: 2019-01-16 23:54:51.422 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl --may-exist add-br Net2 -- set Bridge Net2 fail-mode=secure"
+record 934: 2019-01-16 23:54:51.425
+record 935: 2019-01-16 23:54:51.425
+record 936: 2019-01-16 23:54:51.439 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 937: 2019-01-16 23:54:51.439
+record 938: 2019-01-16 23:54:51.479 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link12-0"
+record 939: 2019-01-16 23:54:51.481
+record 940: 2019-01-16 23:54:51.488 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link12-1"
+record 941: 2019-01-16 23:54:51.489
+record 942: 2019-01-16 23:54:51.516 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 link21-0"
+record 943: 2019-01-16 23:54:51.518
+record 944: 2019-01-16 23:54:51.526 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 link21-1"
+record 945: 2019-01-16 23:54:51.529
+record 946: 2019-01-16 23:54:54.295 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net1 PC1_1-e1"
+record 947: 2019-01-16 23:54:54.296
+record 948: 2019-01-16 23:54:54.309 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl add-port Net2 PC2_1-e1"
+record 949: 2019-01-16 23:54:54.310
+record 950: 2019-01-16 23:54:54.320 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 951: 2019-01-16 23:54:54.321
+record 952: 2019-01-16 23:54:54.331 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 953: 2019-01-16 23:54:54.333
+record 954: 2019-01-16 23:55:04.667 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 PC1_1-e1"
+record 955: 2019-01-16 23:55:04.668
+record 956: 2019-01-16 23:55:05.316 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 PC2_1-e1"
+record 957: 2019-01-16 23:55:05.318
+record 958: 2019-01-16 23:55:06.781 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link12-0"
+record 959: 2019-01-16 23:55:06.782
+record 960: 2019-01-16 23:55:06.797
+record 961: 2019-01-16 23:55:07.117 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net1 link21-1"
+record 962: 2019-01-16 23:55:07.125
+record 963: 2019-01-16 23:55:07.188
+record 964: 2019-01-16 23:55:07.495 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net1"
+record 965: 2019-01-16 23:55:07.543
+record 966: 2019-01-16 23:55:07.554 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link12-1"
+record 967: 2019-01-16 23:55:07.557
+record 968: 2019-01-16 23:55:07.569 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-port Net2 link21-0"
+record 969: 2019-01-16 23:55:07.569
+record 970: 2019-01-16 23:55:07.592 "ovs-vsctl (invoked by /usr/bin/perl): /usr/bin/ovs-vsctl del-br Net2"
+record 971: 2019-01-16 23:55:07.658
+record 972: 2019-01-17 20:34:32.041 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 973: 2019-01-17 20:34:32.060
+record 974: 2019-01-17 20:34:32.061
+record 975: 2019-01-17 20:34:32.070 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 976: 2019-01-17 20:34:32.071
+record 977: 2019-01-17 20:34:32.083 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 978: 2019-01-17 20:34:32.084
+record 979: 2019-01-17 20:39:37.160 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 980: 2019-01-17 20:39:37.160
+record 981: 2019-01-17 20:39:50.853 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 982: 2019-01-17 20:39:50.903
+record 983: 2019-01-17 20:40:27.688 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 984: 2019-01-17 20:40:27.699
+record 985: 2019-01-17 20:40:27.699
+record 986: 2019-01-17 20:40:27.711 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 987: 2019-01-17 20:40:27.713
+record 988: 2019-01-17 20:40:27.725 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 989: 2019-01-17 20:40:27.726
+record 990: 2019-01-17 20:42:20.030 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net1"
+record 991: 2019-01-17 20:42:20.036
+record 992: 2019-01-17 20:42:20.036
+record 993: 2019-01-17 20:42:20.047 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net1 protocols=OpenFlow13"
+record 994: 2019-01-17 20:42:20.048
+record 995: 2019-01-17 20:42:20.059 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net2"
+record 996: 2019-01-17 20:42:20.070
+record 997: 2019-01-17 20:42:20.070
+record 998: 2019-01-17 20:42:20.079 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net2 protocols=OpenFlow13"
+record 999: 2019-01-17 20:42:20.080
+record 1000: 2019-01-17 20:42:20.090 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net3"
+record 1001: 2019-01-17 20:42:20.102
+record 1002: 2019-01-17 20:42:20.103
+record 1003: 2019-01-17 20:42:20.113 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net3 protocols=OpenFlow13"
+record 1004: 2019-01-17 20:42:20.114
+record 1005: 2019-01-17 20:42:20.126 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net4"
+record 1006: 2019-01-17 20:42:20.134
+record 1007: 2019-01-17 20:42:20.138
+record 1008: 2019-01-17 20:42:20.145 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net4 protocols=OpenFlow13"
+record 1009: 2019-01-17 20:42:20.146
+record 1010: 2019-01-17 20:42:20.159 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net5"
+record 1011: 2019-01-17 20:42:20.161
+record 1012: 2019-01-17 20:42:20.161
+record 1013: 2019-01-17 20:42:20.176 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net5 protocols=OpenFlow13"
+record 1014: 2019-01-17 20:42:20.177
+record 1015: 2019-01-17 20:42:20.192 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net6"
+record 1016: 2019-01-17 20:42:20.196
+record 1017: 2019-01-17 20:42:20.196
+record 1018: 2019-01-17 20:42:20.208 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net6 protocols=OpenFlow13"
+record 1019: 2019-01-17 20:42:20.212
+record 1020: 2019-01-17 20:42:20.224 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net7"
+record 1021: 2019-01-17 20:42:20.231
+record 1022: 2019-01-17 20:42:20.232
+record 1023: 2019-01-17 20:42:20.242 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net7 protocols=OpenFlow13"
+record 1024: 2019-01-17 20:42:20.242
+record 1025: 2019-01-17 20:42:20.255 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net8"
+record 1026: 2019-01-17 20:42:20.264
+record 1027: 2019-01-17 20:42:20.265
+record 1028: 2019-01-17 20:42:20.275 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net8 protocols=OpenFlow13"
+record 1029: 2019-01-17 20:42:20.276
+record 1030: 2019-01-17 20:42:20.289 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net9"
+record 1031: 2019-01-17 20:42:20.298
+record 1032: 2019-01-17 20:42:20.298
+record 1033: 2019-01-17 20:42:20.312 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net9 protocols=OpenFlow13"
+record 1034: 2019-01-17 20:42:20.312
+record 1035: 2019-01-17 20:42:20.322 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net10"
+record 1036: 2019-01-17 20:42:20.330
+record 1037: 2019-01-17 20:42:20.332
+record 1038: 2019-01-17 20:42:20.345 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net10 protocols=OpenFlow13"
+record 1039: 2019-01-17 20:42:20.346
+record 1040: 2019-01-17 20:42:20.361 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net11"
+record 1041: 2019-01-17 20:42:20.367
+record 1042: 2019-01-17 20:42:20.368
+record 1043: 2019-01-17 20:42:20.380 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net11 protocols=OpenFlow13"
+record 1044: 2019-01-17 20:42:20.381
+record 1045: 2019-01-17 20:42:20.397 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net12"
+record 1046: 2019-01-17 20:42:20.403
+record 1047: 2019-01-17 20:42:20.404
+record 1048: 2019-01-17 20:42:20.415 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net12 protocols=OpenFlow13"
+record 1049: 2019-01-17 20:42:20.416
+record 1050: 2019-01-17 20:42:20.427 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net13"
+record 1051: 2019-01-17 20:42:20.442
+record 1052: 2019-01-17 20:42:20.444
+record 1053: 2019-01-17 20:42:20.452 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net13 protocols=OpenFlow13"
+record 1054: 2019-01-17 20:42:20.453
+record 1055: 2019-01-17 20:42:20.465 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net14"
+record 1056: 2019-01-17 20:42:20.471
+record 1057: 2019-01-17 20:42:20.479
+record 1058: 2019-01-17 20:42:20.487 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net14 protocols=OpenFlow13"
+record 1059: 2019-01-17 20:42:20.488
+record 1060: 2019-01-17 20:42:20.502 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net15"
+record 1061: 2019-01-17 20:42:20.506
+record 1062: 2019-01-17 20:42:20.511
+record 1063: 2019-01-17 20:42:20.520 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net15 protocols=OpenFlow13"
+record 1064: 2019-01-17 20:42:20.522
+record 1065: 2019-01-17 20:42:20.534 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net16"
+record 1066: 2019-01-17 20:42:20.553
+record 1067: 2019-01-17 20:42:20.553
+record 1068: 2019-01-17 20:42:20.564 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net16 protocols=OpenFlow13"
+record 1069: 2019-01-17 20:42:20.565
+record 1070: 2019-01-17 20:42:20.579 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net17"
+record 1071: 2019-01-17 20:42:20.585
+record 1072: 2019-01-17 20:42:20.591
+record 1073: 2019-01-17 20:42:20.600 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net17 protocols=OpenFlow13"
+record 1074: 2019-01-17 20:42:20.601
+record 1075: 2019-01-17 20:42:20.613 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net18"
+record 1076: 2019-01-17 20:42:20.620
+record 1077: 2019-01-17 20:42:20.625
+record 1078: 2019-01-17 20:42:20.637 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net18 protocols=OpenFlow13"
+record 1079: 2019-01-17 20:42:20.638
+record 1080: 2019-01-17 20:42:20.653 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br Net19"
+record 1081: 2019-01-17 20:42:20.658
+record 1082: 2019-01-17 20:42:20.658
+record 1083: 2019-01-17 20:42:20.674 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge Net19 protocols=OpenFlow13"
+record 1084: 2019-01-17 20:42:20.678
+record 1085: 2019-01-17 20:42:21.527 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link1-2-1"
+record 1086: 2019-01-17 20:42:21.530
+record 1087: 2019-01-17 20:42:21.564 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net1 Link19-1-2"
+record 1088: 2019-01-17 20:42:21.570
+record 1089: 2019-01-17 20:42:21.582 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link2-3-1"
+record 1090: 2019-01-17 20:42:21.584
+record 1091: 2019-01-17 20:42:21.595 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net2 Link1-2-2"
+record 1092: 2019-01-17 20:42:21.597
+record 1093: 2019-01-17 20:42:21.608 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link3-4-1"
+record 1094: 2019-01-17 20:42:21.610
+record 1095: 2019-01-17 20:42:21.620 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net3 Link2-3-2"
+record 1096: 2019-01-17 20:42:21.639
+record 1097: 2019-01-17 20:42:21.649 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link4-5-1"
+record 1098: 2019-01-17 20:42:21.651
+record 1099: 2019-01-17 20:42:21.662 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net4 Link3-4-2"
+record 1100: 2019-01-17 20:42:21.664
+record 1101: 2019-01-17 20:42:21.676 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link5-6-1"
+record 1102: 2019-01-17 20:42:21.678
+record 1103: 2019-01-17 20:42:21.689 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net5 Link4-5-2"
+record 1104: 2019-01-17 20:42:21.691
+record 1105: 2019-01-17 20:42:21.703 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net6 Link6-7-1"
+record 1106: 2019-01-17 20:42:21.705
+record 1107: 2019-01-17 20:42:21.716 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net6 Link5-6-2"
+record 1108: 2019-01-17 20:42:21.719
+record 1109: 2019-01-17 20:42:21.730 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net7 Link7-8-1"
+record 1110: 2019-01-17 20:42:21.732
+record 1111: 2019-01-17 20:42:21.744 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net7 Link6-7-2"
+record 1112: 2019-01-17 20:42:21.746
+record 1113: 2019-01-17 20:42:21.756 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net8 Link8-9-1"
+record 1114: 2019-01-17 20:42:21.759
+record 1115: 2019-01-17 20:42:21.770 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net8 Link7-8-2"
+record 1116: 2019-01-17 20:42:21.772
+record 1117: 2019-01-17 20:42:21.783 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net9 Link9-10-1"
+record 1118: 2019-01-17 20:42:21.786
+record 1119: 2019-01-17 20:42:21.798 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net9 Link8-9-2"
+record 1120: 2019-01-17 20:42:21.800
+record 1121: 2019-01-17 20:42:21.811 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net10 Link10-11-1"
+record 1122: 2019-01-17 20:42:21.813
+record 1123: 2019-01-17 20:42:21.824 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net10 Link9-10-2"
+record 1124: 2019-01-17 20:42:21.826
+record 1125: 2019-01-17 20:42:21.838 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net11 Link11-12-1"
+record 1126: 2019-01-17 20:42:21.840
+record 1127: 2019-01-17 20:42:21.852 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net11 Link10-11-2"
+record 1128: 2019-01-17 20:42:21.854
+record 1129: 2019-01-17 20:42:21.867 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net12 Link12-13-1"
+record 1130: 2019-01-17 20:42:21.869
+record 1131: 2019-01-17 20:42:21.880 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net12 Link11-12-2"
+record 1132: 2019-01-17 20:42:21.882
+record 1133: 2019-01-17 20:42:21.894 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net13 Link13-14-1"
+record 1134: 2019-01-17 20:42:21.897
+record 1135: 2019-01-17 20:42:21.908 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net13 Link12-13-2"
+record 1136: 2019-01-17 20:42:21.911
+record 1137: 2019-01-17 20:42:21.922 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net14 Link14-15-1"
+record 1138: 2019-01-17 20:42:21.924
+record 1139: 2019-01-17 20:42:21.937 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net14 Link13-14-2"
+record 1140: 2019-01-17 20:42:21.940
+record 1141: 2019-01-17 20:42:21.952 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net15 Link15-16-1"
+record 1142: 2019-01-17 20:42:21.954
+record 1143: 2019-01-17 20:42:21.967 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net15 Link14-15-2"
+record 1144: 2019-01-17 20:42:21.969
+record 1145: 2019-01-17 20:42:21.982 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net16 Link16-17-1"
+record 1146: 2019-01-17 20:42:21.984
+record 1147: 2019-01-17 20:42:21.996 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net16 Link15-16-2"
+record 1148: 2019-01-17 20:42:21.999
+record 1149: 2019-01-17 20:42:22.009 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net17 Link17-18-1"
+record 1150: 2019-01-17 20:42:22.013
+record 1151: 2019-01-17 20:42:22.029 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net17 Link16-17-2"
+record 1152: 2019-01-17 20:42:22.032
+record 1153: 2019-01-17 20:42:22.045 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net18 Link18-19-1"
+record 1154: 2019-01-17 20:42:22.047
+record 1155: 2019-01-17 20:42:22.059 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net18 Link17-18-2"
+record 1156: 2019-01-17 20:42:22.060
+record 1157: 2019-01-17 20:42:22.074 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net19 Link19-1-1"
+record 1158: 2019-01-17 20:42:22.077
+record 1159: 2019-01-17 20:42:22.089 "ovs-vsctl (invoked by sudo): ovs-vsctl add-port Net19 Link18-19-2"
+record 1160: 2019-01-17 20:42:22.092
+record 1161: 2019-01-17 20:42:22.103 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net1 tcp:10.10.10.2:6653"
+record 1162: 2019-01-17 20:42:22.106
+record 1163: 2019-01-17 20:42:22.124 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net2 tcp:10.10.10.2:6653"
+record 1164: 2019-01-17 20:42:22.129
+record 1165: 2019-01-17 20:42:22.150 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net3 tcp:10.10.10.2:6653"
+record 1166: 2019-01-17 20:42:22.155
+record 1167: 2019-01-17 20:42:22.179 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net4 tcp:10.10.10.2:6653"
+record 1168: 2019-01-17 20:42:22.183
+record 1169: 2019-01-17 20:42:22.202 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net5 tcp:10.10.10.2:6653"
+record 1170: 2019-01-17 20:42:22.206
+record 1171: 2019-01-17 20:42:22.232 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net6 tcp:10.10.10.2:6653"
+record 1172: 2019-01-17 20:42:22.237
+record 1173: 2019-01-17 20:42:22.307 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net7 tcp:10.10.10.2:6653"
+record 1174: 2019-01-17 20:42:22.312
+record 1175: 2019-01-17 20:42:22.350 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net8 tcp:10.10.10.2:6653"
+record 1176: 2019-01-17 20:42:22.352
+record 1177: 2019-01-17 20:42:22.374 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net9 tcp:10.10.10.2:6653"
+record 1178: 2019-01-17 20:42:22.377
+record 1179: 2019-01-17 20:42:22.417 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net10 tcp:10.10.10.2:6653"
+record 1180: 2019-01-17 20:42:22.420
+record 1181: 2019-01-17 20:42:22.445 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net11 tcp:10.10.10.2:6653"
+record 1182: 2019-01-17 20:42:22.451
+record 1183: 2019-01-17 20:42:22.502 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net12 tcp:10.10.10.2:6653"
+record 1184: 2019-01-17 20:42:22.506
+record 1185: 2019-01-17 20:42:22.540 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net13 tcp:10.10.10.2:6653"
+record 1186: 2019-01-17 20:42:22.543
+record 1187: 2019-01-17 20:42:22.576 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net14 tcp:10.10.10.2:6653"
+record 1188: 2019-01-17 20:42:22.581
+record 1189: 2019-01-17 20:42:22.635 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net15 tcp:10.10.10.2:6653"
+record 1190: 2019-01-17 20:42:22.640
+record 1191: 2019-01-17 20:42:22.658 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net16 tcp:10.10.10.2:6653"
+record 1192: 2019-01-17 20:42:22.665
+record 1193: 2019-01-17 20:42:22.704 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net17 tcp:10.10.10.2:6653"
+record 1194: 2019-01-17 20:42:22.711
+record 1195: 2019-01-17 20:42:22.766 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net18 tcp:10.10.10.2:6653"
+record 1196: 2019-01-17 20:42:22.770
+record 1197: 2019-01-17 20:42:22.809 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller Net19 tcp:10.10.10.2:6653"
+record 1198: 2019-01-17 20:42:22.813
+record 1199: 2019-01-17 20:52:23.350 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1200: 2019-01-17 20:52:23.353
+record 1201: 2019-01-17 20:53:01.399 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1202: 2019-01-17 20:53:01.437
+record 1203: 2019-01-17 20:54:02.183 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1204: 2019-01-17 20:54:02.200
+record 1205: 2019-01-17 20:54:02.200
+record 1206: 2019-01-17 20:54:02.209 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1207: 2019-01-17 20:54:02.216
+record 1208: 2019-01-17 20:54:02.227 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1209: 2019-01-17 20:54:02.231
+record 1210: 2019-01-17 21:39:35.869 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1211: 2019-01-17 21:39:35.878
+record 1212: 2019-01-17 21:39:52.276 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1213: 2019-01-17 21:39:52.326
+record 1214: 2019-01-17 21:42:41.360 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1215: 2019-01-17 21:42:41.380
+record 1216: 2019-01-17 21:42:41.380
+record 1217: 2019-01-17 21:42:41.399 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1218: 2019-01-17 21:42:41.401
+record 1219: 2019-01-17 21:42:41.419 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1220: 2019-01-17 21:42:41.423
+record 1221: 2019-01-17 21:46:39.862 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1222: 2019-01-17 21:46:39.891
+record 1223: 2019-01-17 21:50:24.216 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1224: 2019-01-17 21:50:24.226
+record 1225: 2019-01-17 21:50:24.228
+record 1226: 2019-01-17 21:50:24.239 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1227: 2019-01-17 21:50:24.241
+record 1228: 2019-01-17 21:50:24.252 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1229: 2019-01-17 21:50:24.255
+record 1230: 2019-01-17 21:52:23.964 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1231: 2019-01-17 21:52:24.013
+record 1232: 2019-01-17 21:57:54.954 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1233: 2019-01-17 21:57:54.975
+record 1234: 2019-01-17 21:57:54.975
+record 1235: 2019-01-17 21:57:54.996 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1236: 2019-01-17 21:57:55.000
+record 1237: 2019-01-17 21:57:55.045 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1238: 2019-01-17 21:57:55.052
+record 1239: 2019-01-17 21:58:13.385 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1240: 2019-01-17 21:58:13.417
+record 1241: 2019-01-17 22:00:13.365 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1242: 2019-01-17 22:00:13.383
+record 1243: 2019-01-17 22:00:13.383
+record 1244: 2019-01-17 22:00:13.409 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1245: 2019-01-17 22:00:13.412
+record 1246: 2019-01-17 22:00:13.431 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1247: 2019-01-17 22:00:13.443
+record 1248: 2019-01-17 22:00:41.607 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1249: 2019-01-17 22:00:41.641
+record 1250: 2019-01-17 22:08:26.399
+record 1251: 2019-01-17 22:10:17.976 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1252: 2019-01-17 22:10:18.047
+record 1253: 2019-01-17 22:10:18.048
+record 1254: 2019-01-17 22:10:18.056 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1255: 2019-01-17 22:10:18.170
+record 1256: 2019-01-17 22:10:18.181 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1257: 2019-01-17 22:10:18.228
+record 1258: 2019-01-17 22:11:44.648 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1259: 2019-01-17 22:11:44.773
+record 1260: 2019-01-17 22:19:50.942 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1261: 2019-01-17 22:19:51.016
+record 1262: 2019-01-17 22:19:51.017
+record 1263: 2019-01-17 22:19:51.025 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1264: 2019-01-17 22:19:51.138
+record 1265: 2019-01-17 22:19:51.148 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1266: 2019-01-17 22:19:51.195
+record 1267: 2019-01-17 22:21:37.810 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1268: 2019-01-17 22:21:37.921
+record 1269: 2019-01-17 22:33:14.149 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1270: 2019-01-17 22:33:14.263
+record 1271: 2019-01-17 22:33:14.264
+record 1272: 2019-01-17 22:33:14.275 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1273: 2019-01-17 22:33:14.355
+record 1274: 2019-01-17 22:33:14.364 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1275: 2019-01-17 22:33:14.408
+record 1276: 2019-01-17 22:33:40.595 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1277: 2019-01-17 22:33:40.718
+record 1278: 2019-01-18 18:12:41.859 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net1"
+record 1279: 2019-01-18 18:12:41.944
+record 1280: 2019-01-18 18:12:41.954 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net2"
+record 1281: 2019-01-18 18:12:42.052
+record 1282: 2019-01-18 18:12:42.062 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net3"
+record 1283: 2019-01-18 18:12:42.162
+record 1284: 2019-01-18 18:12:42.172 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net4"
+record 1285: 2019-01-18 18:12:42.267
+record 1286: 2019-01-18 18:12:42.278 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net5"
+record 1287: 2019-01-18 18:12:42.356
+record 1288: 2019-01-18 18:12:42.366 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net6"
+record 1289: 2019-01-18 18:12:42.442
+record 1290: 2019-01-18 18:12:42.451 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net7"
+record 1291: 2019-01-18 18:12:42.537
+record 1292: 2019-01-18 18:12:42.546 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net8"
+record 1293: 2019-01-18 18:12:42.622
+record 1294: 2019-01-18 18:12:42.632 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net9"
+record 1295: 2019-01-18 18:12:42.710
+record 1296: 2019-01-18 18:12:42.719 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net10"
+record 1297: 2019-01-18 18:12:42.780
+record 1298: 2019-01-18 18:12:42.790 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net11"
+record 1299: 2019-01-18 18:12:42.851
+record 1300: 2019-01-18 18:12:42.859 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net12"
+record 1301: 2019-01-18 18:12:42.929
+record 1302: 2019-01-18 18:12:42.938 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net13"
+record 1303: 2019-01-18 18:12:43.003
+record 1304: 2019-01-18 18:12:43.012 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net14"
+record 1305: 2019-01-18 18:12:43.057
+record 1306: 2019-01-18 18:12:43.066 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net15"
+record 1307: 2019-01-18 18:12:43.113
+record 1308: 2019-01-18 18:12:43.123 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net16"
+record 1309: 2019-01-18 18:12:43.163
+record 1310: 2019-01-18 18:12:43.178 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net17"
+record 1311: 2019-01-18 18:12:43.208
+record 1312: 2019-01-18 18:12:43.217 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net18"
+record 1313: 2019-01-18 18:12:43.238
+record 1314: 2019-01-18 18:12:43.247 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br Net19"
+record 1315: 2019-01-18 18:12:43.283
+record 1316: 2019-01-18 18:13:46.672 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1317: 2019-01-18 18:13:46.682
+record 1318: 2019-01-18 18:13:46.682
+record 1319: 2019-01-18 18:13:46.694 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1320: 2019-01-18 18:13:46.695
+record 1321: 2019-01-18 18:13:46.707 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1322: 2019-01-18 18:13:46.708
+record 1323: 2019-01-18 18:23:38.118 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1324: 2019-01-18 18:23:38.177
+record 1325: 2019-01-18 18:33:48.732 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1326: 2019-01-18 18:33:48.739
+record 1327: 2019-01-18 18:33:48.739
+record 1328: 2019-01-18 18:33:48.752 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1329: 2019-01-18 18:33:48.752
+record 1330: 2019-01-18 18:33:48.762 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1331: 2019-01-18 18:33:48.764
+record 1332: 2019-01-18 18:35:34.116 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1333: 2019-01-18 18:35:34.177
+record 1334: 2019-01-18 18:39:39.791 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1335: 2019-01-18 18:39:39.817
+record 1336: 2019-01-18 18:39:39.818
+record 1337: 2019-01-18 18:39:39.836 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1338: 2019-01-18 18:39:39.837
+record 1339: 2019-01-18 18:39:39.850 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.1.2:6653"
+record 1340: 2019-01-18 18:39:39.851
+record 1341: 2019-01-18 18:40:19.922 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1342: 2019-01-18 18:40:19.993
+record 1343: 2019-01-18 20:20:03.020 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1344: 2019-01-18 20:20:03.041
+record 1345: 2019-01-18 20:20:03.042
+record 1346: 2019-01-18 20:20:03.061 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1347: 2019-01-18 20:20:03.061
+record 1348: 2019-01-18 20:20:03.071 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1349: 2019-01-18 20:20:03.072
+record 1350: 2019-01-18 20:20:46.825 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1351: 2019-01-18 20:20:46.885
+record 1352: 2019-01-18 20:21:04.543 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1353: 2019-01-18 20:21:04.564
+record 1354: 2019-01-18 20:21:04.565
+record 1355: 2019-01-18 20:21:04.584 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1356: 2019-01-18 20:21:04.584
+record 1357: 2019-01-18 20:21:04.598 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1358: 2019-01-18 20:21:04.599
+record 1359: 2019-01-18 20:22:28.956 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.1.2:6653"
+record 1360: 2019-01-18 20:22:28.957
+record 1361: 2019-01-18 20:29:58.821 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1362: 2019-01-18 20:29:58.869
+record 1363: 2019-01-18 20:32:18.848 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1364: 2019-01-18 20:32:18.869
+record 1365: 2019-01-18 20:32:18.870
+record 1366: 2019-01-18 20:32:18.887 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1367: 2019-01-18 20:32:18.888
+record 1368: 2019-01-18 20:32:18.902 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1369: 2019-01-18 20:32:18.903
+record 1370: 2019-01-18 20:32:37.477 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1371: 2019-01-18 20:32:37.529
+record 1372: 2019-01-18 20:37:40.410 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1373: 2019-01-18 20:37:40.417
+record 1374: 2019-01-18 20:37:40.417
+record 1375: 2019-01-18 20:37:40.432 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1376: 2019-01-18 20:37:40.432
+record 1377: 2019-01-18 20:37:40.450 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1378: 2019-01-18 20:37:40.451
+record 1379: 2019-01-18 20:41:06.002 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1380: 2019-01-18 20:41:06.061
+record 1381: 2019-01-18 20:42:21.328 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1382: 2019-01-18 20:42:21.335
+record 1383: 2019-01-18 20:42:21.336
+record 1384: 2019-01-18 20:42:21.363 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1385: 2019-01-18 20:42:21.364
+record 1386: 2019-01-18 20:42:21.372 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1387: 2019-01-18 20:42:21.373
+record 1388: 2019-01-18 20:43:03.899 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1389: 2019-01-18 20:43:03.962
+record 1390: 2019-01-18 20:44:44.928 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1391: 2019-01-18 20:44:44.938
+record 1392: 2019-01-18 20:44:44.938
+record 1393: 2019-01-18 20:44:44.953 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1394: 2019-01-18 20:44:44.954
+record 1395: 2019-01-18 20:44:44.965 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1396: 2019-01-18 20:44:44.969
+record 1397: 2019-01-18 20:45:04.522 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1398: 2019-01-18 20:45:04.605
+record 1399: 2019-01-18 22:34:26.807 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1400: 2019-01-18 22:34:26.816
+record 1401: 2019-01-18 22:34:26.816
+record 1402: 2019-01-18 22:34:26.829 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1403: 2019-01-18 22:34:26.830
+record 1404: 2019-01-18 22:34:26.846 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1405: 2019-01-18 22:34:26.850
+record 1406: 2019-01-18 22:34:46.881 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1407: 2019-01-18 22:34:46.949
+record 1408: 2019-01-18 22:44:53.517 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1409: 2019-01-18 22:44:53.532
+record 1410: 2019-01-18 22:44:53.532
+record 1411: 2019-01-18 22:44:53.541 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1412: 2019-01-18 22:44:53.541
+record 1413: 2019-01-18 22:44:53.554 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1414: 2019-01-18 22:44:53.555
+record 1415: 2019-01-18 22:45:05.749 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1416: 2019-01-18 22:45:05.805
+record 1417: 2019-01-18 23:00:37.037 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1418: 2019-01-18 23:00:37.044
+record 1419: 2019-01-18 23:00:37.045
+record 1420: 2019-01-18 23:00:37.059 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1421: 2019-01-18 23:00:37.059
+record 1422: 2019-01-18 23:00:37.075 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1423: 2019-01-18 23:00:37.077
+record 1424: 2019-01-18 23:00:49.300 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1425: 2019-01-18 23:00:49.361
+record 1426: 2019-01-18 23:05:23.219 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1427: 2019-01-18 23:05:23.225
+record 1428: 2019-01-18 23:05:23.227
+record 1429: 2019-01-18 23:05:23.242 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1430: 2019-01-18 23:05:23.244
+record 1431: 2019-01-18 23:05:23.257 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1432: 2019-01-18 23:05:23.258
+record 1433: 2019-01-18 23:05:36.691 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1434: 2019-01-18 23:05:36.750
+record 1435: 2019-01-18 23:07:15.163 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1436: 2019-01-18 23:07:15.170
+record 1437: 2019-01-18 23:07:15.170
+record 1438: 2019-01-18 23:07:15.185 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1439: 2019-01-18 23:07:15.186
+record 1440: 2019-01-18 23:07:15.206 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1441: 2019-01-18 23:07:15.208
+record 1442: 2019-01-18 23:07:32.357 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1443: 2019-01-18 23:07:32.441
+record 1444: 2019-01-18 23:10:41.768 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1445: 2019-01-18 23:10:41.775
+record 1446: 2019-01-18 23:10:41.776
+record 1447: 2019-01-18 23:10:41.787 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1448: 2019-01-18 23:10:41.788
+record 1449: 2019-01-18 23:10:41.801 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1450: 2019-01-18 23:10:41.802
+record 1451: 2019-01-19 13:38:11.721 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1452: 2019-01-19 13:38:11.721
+record 1453: 2019-01-19 18:11:53.923 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1454: 2019-01-19 18:11:53.924
+record 1455: 2019-01-19 18:12:07.667 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1456: 2019-01-19 18:12:07.724
+record 1457: 2019-01-19 18:12:28.849 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1458: 2019-01-19 18:12:28.871
+record 1459: 2019-01-19 18:12:28.873
+record 1460: 2019-01-19 18:12:28.890 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1461: 2019-01-19 18:12:28.891
+record 1462: 2019-01-19 18:12:28.905 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1463: 2019-01-19 18:12:28.905
+record 1464: 2019-01-19 18:14:42.136 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1465: 2019-01-19 18:14:42.192
+record 1466: 2019-01-19 18:33:59.777 "ovs-vsctl (invoked by sudo): ovs-vsctl add-br NetTest"
+record 1467: 2019-01-19 18:33:59.798
+record 1468: 2019-01-19 18:33:59.798
+record 1469: 2019-01-19 18:33:59.813 "ovs-vsctl (invoked by sudo): ovs-vsctl set bridge NetTest protocols=OpenFlow13"
+record 1470: 2019-01-19 18:33:59.813
+record 1471: 2019-01-19 18:33:59.825 "ovs-vsctl (invoked by sudo): ovs-vsctl set-controller NetTest tcp:10.10.10.2:6653"
+record 1472: 2019-01-19 18:33:59.827
+record 1473: 2019-01-19 18:34:12.875 "ovs-vsctl (invoked by sudo): ovs-vsctl del-br NetTest"
+record 1474: 2019-01-19 18:34:12.928

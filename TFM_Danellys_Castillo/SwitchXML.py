@@ -1,5 +1,6 @@
 #from netaddr import *
 #import ipaddress
+#Creación de XML correspondiente a los controladores
 def create_switch(switch, ipcontrollers,x, TopologyType):
     i= 1
     icontrollers = 1
