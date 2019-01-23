@@ -59,9 +59,9 @@ def GUI():
     w2.grid(row=3, column=5, pady=(10,30), sticky=W)
 
     #Creando Boton para crear/eliminar switches
-    button1 = Button(root, text="Agregar Conmutadores OVS", font=Fuente, command=lambda: ManejoEscenario.addswitch(QSwitch,IP_Address,QuantityCtrl, TopologyType))
+    button1 = Button(root, text="Agregar Conmutadores OVS", font=Fuente, command=lambda: ManejoEscenario.AgregarConmutador(QSwitch,IP_Address,QuantityCtrl, TopologyType))
     button1.grid(row=6, column=1, pady=(10, 30), padx=(5, 5), sticky=W + E)
-    button1 = Button(root, text="Eliminar Conmutadores OVS", font=Fuente,command=lambda: ManejoEscenario.deleteswitch(QSwitch, TopologyType))
+    button1 = Button(root, text="Eliminar Conmutadores OVS", font=Fuente,command=lambda: ManejoEscenario.EliminarConmutador(QSwitch, TopologyType))
     button1.grid(row=6, column=2, pady=(10, 30), padx=(5, 5), sticky=W + E)
 
     # Creando etiqueta y cuadro de texto para indicar la direccion IP inicial
